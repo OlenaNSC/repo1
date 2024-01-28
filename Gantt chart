@@ -1,0 +1,58 @@
+Gantt chart based on the provided Work Breakdown Structure (WBS):
+Project of Celebrating Multicultural Days at The NSC Child Care Center
+
+| Task                                 | Start Date | Duration (Days) | End Date   | Dependencies          |
+|--------------------------------------|------------|------------------|------------|------------------------|
+| 1. Project Initiation                | 01/01/2024 | 5                | 01/05/2024 | -                      |
+|   1.01 Define objectives and scope    | 01/01/2024 | 2                | 01/02/2024 | -                      |
+|   1.02 Identify stakeholders          | 01/03/2024 | 2                | 01/04/2024 | 1.01                   |
+|   1.03 Brief team members             | 01/05/2024 | 1                | 01/05/2024 | 1.02                   |
+|   1.04 Write the goal                 | 01/03/2024 | 2                | 01/04/2024 | 1.01                   |
+| 2. Research and Planning             | 01/06/2024 | 20               | 01/25/2024 | 1.04, 1.02             |
+|   2.01 Research diverse cultures     | 01/06/2024 | 5                | 01/10/2024 | -                      |
+|   2.02 Develop detailed plan          | 01/11/2024 | 7                | 01/18/2024 | 2.01                   |
+|   2.03 Determine project priority     | 01/19/2024 | 2                | 01/20/2024 | 2.02                   |
+|   2.04 Determine personnel            | 01/21/2024 | 2                | 01/22/2024 | 2.02                   |
+|   2.05 Select estimated milestones   | 01/23/2024 | 2                | 01/24/2024 | 2.02                   |
+|   2.06 Develop network and Gantt      | 01/25/2024 | 2                | 01/26/2024 | 2.02                   |
+|   2.07 Specify control mechanisms    | 01/27/2024 | 2                | 01/28/2024 | 2.02                   |
+|   2.08 Allocate budget                | 01/29/2024 | 2                | 01/30/2024 | 2.02                   |
+|   2.09 Get the plan approved          | 01/31/2024 | 2                | 02/01/2024 | 2.02                   |
+|   2.10 Assemble a plan                | 02/02/2024 | 1                | 02/02/2024 | 2.09                   |
+|   2.11 Assign responsibilities        | 02/03/2024 | 2                | 02/04/2024 | 2.10                   |
+| 3. Resource Identification           | 02/05/2024 | 10               | 02/14/2024 | 2.11                   |
+|   3.01 Identify and allocate resources| 02/05/2024 | 3                | 02/07/2024 | -                      |
+|   3.02 Determine material needs       | 02/08/2024 | 3                | 02/10/2024 | 3.01                   |
+|   3.03 Recruit volunteers             | 02/11/2024 | 4                | 02/14/2024 | 3.02                   |
+| 4. Culture Selection                 | 02/15/2024 | 7                | 02/21/2024 | 3.03                   |
+|   4.01 Decide on cultures            | 02/15/2024 | 2                | 02/16/2024 | -                      |
+|   4.02 Allocate activities            | 02/17/2024 | 3                | 02/19/2024 | 4.01                   |
+|   4.03 Plan general agenda            | 02/20/2024 | 2                | 02/21/2024 | 4.02                   |
+| 5. Activity Development              | 02/22/2024 | 15               | 03/07/2024 | 4.03                   |
+|   5.01 Plan and design activities     | 02/22/2024 | 5                | 02/26/2024 | -                      |
+|   5.02 Develop educational programs   | 02/27/2024 | 5                | 03/02/2024 | 5.01                   |
+|   5.03 Hand out responsibilities      | 03/03/2024 | 5                | 03/07/2024 | 5.02                   |
+| 6. Logistics and Setup               | 03/08/2024 | 7                | 03/14/2024 | 5.03                   |
+|   6.01 Arrange for venue logistics    | 03/08/2024 | 2                | 03/09/2024 | -                      |
+|   6.02 Develop plan for decorations   | 03/10/2024 | 3                | 03/12/2024 | 6.01                   |
+|   6.03 Ensure all necessary materials | 03/13/2024 | 2                | 03/14/2024 | 6.02                   |
+| 7. Communication and Promotion       | 03/15/2024 | 10               | 03/24/2024 | 6.03                   |
+|   7.01 Develop communication plan     | 03/15/2024 | 5                | 03/19/2024 | -                      |
+|   7.02 Promote multicultural days     | 03/20/2024 | 5                | 03/24/2024 | 7.01                   |
+| 8. Event Execution                   | 03/25/2024 | 7                | 03/31/2024 | 7.02                   |
+|   8.01 Coordinate and execute events | 03/25/2024 | 4                | 03/28/2024 | -                      |
+|   8.02 Oversee activities             | 03/29/2024 | 3                | 03/31/2024 | 8.01                   |
+| 9. Evaluation and Feedback           | 04/01/2024 | 5                | 04/05/2024 | 8.02                   |
+|   9.01 Assess success of events       | 04/01/2024 | 2                | 04/02/2024 | -                      |
+|   9.02 Collect feedback               | 04/03/2024 | 3                | 04/05/2024 | 9.01                   |
+| 10. Documentation                    | 04/06/2024 | 10               | 04/15/2024 | 9.02                   |
+|   10.01 Document the entire process   | 04/06/2024 | 5                | 04/10/2024 | -                      |
+|   10.02 Create a report               | 04/11/2024 | 5                | 04/15/2024 | 10.01                  |
+| 11. Celebration and Recognition       | 04/16/2024 | 5                | 04/20/2024 | 10.02                  |
+|   11.01 Plan celebration event        | 04/16/2024 | 2                | 04/17/2024 | -                      |
+|   11.02 Recognize efforts             | 04/18/2024 | 2                | 04/19/2024 | 11.01                  |
+|   11.03 Prepare end-of-project report | 04/20/2024 | 1                | 04/20/2024 | 11.02                  |
+| 12. Follow-Up and Future Planning    | 04/21/2024 | 10               | 04/30/2024 | 11.03                  |
+|   12.01 Conduct follow-up meeting     | 04/21/2024 | 3                | 04/23/2024 | -                      |
+|   12.02 Outline plans for future      | 04/24/2024 | 5                | 04/28/2024 | 12.01                  |
+|   12.03 Adjustments based on needs    | 04/29/2024 | 2                | 04/30/2024 | 12.02                  |
